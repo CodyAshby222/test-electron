@@ -1,13 +1,15 @@
 import React from 'react'
 
 import '../assets/css/App.css'
+import PhoneImg from '../assets/images/phone.jpg'
 
 function App() {
   return (
     <div>
       <h1>Hello, Electron!</h1>
       <div>Testing Wwwoooow</div>
-      <p>I hope you enjoy using basic-electron-react-boilerplate to start your dev off right!</p>
+      <p>test test test</p>
+      <img src={PhoneImg} alt="images"/>
     </div>
   )
 }
