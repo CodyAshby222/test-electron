@@ -1,7 +1,9 @@
-/* Example stylesheet */
-@media screen and (prefers-color-scheme: light), screen and (prefers-color-scheme: no-preference) {
+/* Main CSS file */
+
+@media screen and (prefers-color-scheme: light),
+  screen and (prefers-color-scheme: no-preference) {
   /* Light theme */
-  body{
+  body {
     color: #000;
     background-color: #fff;
   }
